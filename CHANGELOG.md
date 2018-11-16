@@ -1,5 +1,8 @@
 # Changelog
 
+# 2.3.1-STEPSTONE (16/11/2018)
+- Fix for Robolectric failures: #373
+
 # 2.3.0 (11/05/2017)
 - Fix Toolbar TextView's layout race condition. [@ansman](https://github.com/ansman) #386, #368, #327, #280, #304, #363
 

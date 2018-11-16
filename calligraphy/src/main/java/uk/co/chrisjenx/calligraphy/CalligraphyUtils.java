@@ -227,6 +227,8 @@ public final class CalligraphyUtils {
             }
         }
 
+        if (textAppearanceId == -1) return null;
+
         final TypedArray textAppearanceAttrs = context.obtainStyledAttributes(textAppearanceId, attributeId);
         if (textAppearanceAttrs != null) {
             try {
